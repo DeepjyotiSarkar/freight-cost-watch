@@ -1,0 +1,62 @@
+{
+  "0026c0bc6133e434": {
+    "model": "qwen2.5-3b-instruct",
+    "note_id": "N008",
+    "prompt_version": "note-facts-v4",
+    "reply": "{\"cost_effect\": \"no_increase\", \"timing\": \"unspecified\", \"start_date\": null, \"end_date\": null, \"magnitude_low_pct\": null, \"magnitude_high_pct\": null, \"affects_routes_in_dataset\": true, \"evidence\": \"No significant disruptions were reported\"}"
+  },
+  "110ceff7b8011b65": {
+    "model": "qwen2.5-3b-instruct",
+    "note_id": "N010",
+    "prompt_version": "note-facts-v4",
+    "reply": "{\"cost_effect\": \"no_increase\", \"timing\": \"ongoing_from_date\", \"start_date\": \"2025-10-27\", \"end_date\": null, \"magnitude_low_pct\": null, \"magnitude_high_pct\": null, \"affects_routes_in_dataset\": true, \"evidence\": \"compliance costs were absorbed by transporters without a rate change\"}"
+  },
+  "138513ae07b8c662": {
+    "model": "qwen2.5-3b-instruct",
+    "note_id": "N005",
+    "prompt_version": "note-facts-v4",
+    "reply": "{\"cost_effect\": \"no_increase\", \"timing\": \"date_range\", \"start_date\": \"2024-07-29\", \"end_date\": null, \"magnitude_low_pct\": null, \"magnitude_high_pct\": null, \"affects_routes_in_dataset\": true, \"evidence\": \"costs were not significantly affected\"}"
+  },
+  "4f08d364aaedd8c1": {
+    "model": "qwen2.5-3b-instruct",
+    "note_id": "N004",
+    "prompt_version": "note-facts-v4",
+    "reply": "{\"cost_effect\": \"unclear\", \"timing\": \"ongoing_from_date\", \"start_date\": \"2024-03-11\", \"end_date\": null, \"magnitude_low_pct\": null, \"magnitude_high_pct\": null, \"affects_routes_in_dataset\": false, \"evidence\": \"affected routes are not part of this dataset.\"}"
+  },
+  "801ef04af34feb85": {
+    "model": "qwen2.5-3b-instruct",
+    "note_id": "N009",
+    "prompt_version": "note-facts-v4",
+    "reply": "{\"cost_effect\": \"unclear\", \"timing\": \"ongoing_from_date\", \"start_date\": \"2025-03-17\", \"end_date\": null, \"magnitude_low_pct\": null, \"magnitude_high_pct\": null, \"affects_routes_in_dataset\": true, \"evidence\": \"Chennai-Bangalore route returned to normal conditions\"}"
+  },
+  "8c6e257dfc9468d2": {
+    "model": "qwen2.5-3b-instruct",
+    "note_id": "N003",
+    "prompt_version": "note-facts-v4",
+    "reply": "{\"cost_effect\": \"increase\", \"timing\": \"ongoing_from_date\", \"start_date\": \"2025-05-05\", \"end_date\": null, \"magnitude_low_pct\": 5, \"magnitude_high_pct\": 7, \"affects_routes_in_dataset\": true, \"evidence\": \"pushed up transportation costs across all routes by roughly 5-7%\"}"
+  },
+  "8e8d421a6578cfa1": {
+    "model": "qwen2.5-3b-instruct",
+    "note_id": "N007",
+    "prompt_version": "note-facts-v4",
+    "reply": "{\"cost_effect\": \"unclear\", \"timing\": \"ongoing_from_date\", \"start_date\": \"2024-05-20\", \"end_date\": null, \"magnitude_low_pct\": null, \"magnitude_high_pct\": null, \"affects_routes_in_dataset\": true, \"evidence\": \"improved road conditions\"}"
+  },
+  "9cdc0f6991cb944b": {
+    "model": "qwen2.5-3b-instruct",
+    "note_id": "N006",
+    "prompt_version": "note-facts-v4",
+    "reply": "{\"cost_effect\": \"no_increase\", \"timing\": \"unspecified\", \"start_date\": \"2025-09-22\", \"end_date\": null, \"magnitude_low_pct\": null, \"magnitude_high_pct\": null, \"affects_routes_in_dataset\": true, \"evidence\": \"overall demand for freight capacity remained stable this quarter\"}"
+  },
+  "e3c083076afbf118": {
+    "model": "qwen2.5-3b-instruct",
+    "note_id": "N001",
+    "prompt_version": "note-facts-v4",
+    "reply": "{\"cost_effect\": \"increase\", \"timing\": \"date_range\", \"start_date\": \"2025-02-24\", \"end_date\": \"2025-03-08\", \"magnitude_low_pct\": null, \"magnitude_high_pct\": null, \"affects_routes_in_dataset\": true, \"evidence\": \"forcing longer detours and higher trip costs\"}"
+  },
+  "ef4a85d8c08b4c50": {
+    "model": "qwen2.5-3b-instruct",
+    "note_id": "N002",
+    "prompt_version": "note-facts-v4",
+    "reply": "{\"cost_effect\": \"increase\", \"timing\": \"date_range\", \"start_date\": \"2025-01-20\", \"end_date\": null, \"magnitude_low_pct\": null, \"magnitude_high_pct\": null, \"affects_routes_in_dataset\": true, \"evidence\": \"temporary surcharge applied by transporters\"}"
+  }
+}

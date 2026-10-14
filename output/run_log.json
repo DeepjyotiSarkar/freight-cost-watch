@@ -1,0 +1,575 @@
+{
+  "rows": 728,
+  "anomalies": 19,
+  "flagged_yes": 15,
+  "justified": 4,
+  "thresholds": {
+    "history_weeks": 8,
+    "min_rise_pct": 3.0,
+    "own_history_pct": 10.0,
+    "peer_excess_pct": 12.0,
+    "peer_baseline_min_weeks": 8
+  },
+  "llm_reasons": false,
+  "llm": null,
+  "explanations": {
+    "llm": 0,
+    "template_fallback": 0,
+    "template": 728
+  },
+  "note_facts": [
+    {
+      "note_id": "N001",
+      "note_date": "2025-02-24",
+      "applies_to": "Chennai-Bangalore",
+      "text": "Heavy flooding on the Chennai-Bangalore highway disrupted normal truck movement from Feb 24 to Mar 8, forcing longer detours and higher trip costs. Roads were passable again by Mar 9.",
+      "cost_effect": "increase",
+      "timing": "date_range",
+      "start_date": "2025-02-24",
+      "end_date": "2025-03-08",
+      "magnitude_low_pct": null,
+      "magnitude_high_pct": null,
+      "affects_routes_in_dataset": true,
+      "evidence": "forcing longer detours and higher trip costs",
+      "window_start": "2025-02-24",
+      "window_end": "2025-03-08",
+      "problems": [],
+      "usable_for_justification": true
+    },
+    {
+      "note_id": "N002",
+      "note_date": "2025-01-20",
+      "applies_to": "Ahmedabad-Mumbai",
+      "text": "A regional festival week saw a temporary surcharge applied by transporters on the Ahmedabad-Mumbai corridor due to high demand and limited truck availability.",
+      "cost_effect": "increase",
+      "timing": "single_week",
+      "start_date": "2025-01-20",
+      "end_date": null,
+      "magnitude_low_pct": null,
+      "magnitude_high_pct": null,
+      "affects_routes_in_dataset": true,
+      "evidence": "temporary surcharge applied by transporters",
+      "window_start": "2025-01-20",
+      "window_end": "2025-01-26",
+      "problems": [],
+      "usable_for_justification": true
+    },
+    {
+      "note_id": "N003",
+      "note_date": "2025-05-05",
+      "applies_to": "All Routes",
+      "text": "Diesel prices rose nationwide starting this week, pushing up transportation costs across all routes by roughly 5-7%.",
+      "cost_effect": "increase",
+      "timing": "ongoing_from_date",
+      "start_date": "2025-05-05",
+      "end_date": null,
+      "magnitude_low_pct": 5.0,
+      "magnitude_high_pct": 7.0,
+      "affects_routes_in_dataset": true,
+      "evidence": "pushed up transportation costs across all routes by roughly 5-7%",
+      "window_start": "2025-05-05",
+      "window_end": "2025-06-29",
+      "problems": [],
+      "usable_for_justification": true
+    },
+    {
+      "note_id": "N004",
+      "note_date": "2024-03-11",
+      "applies_to": "All Routes",
+      "text": "A new toll plaza was commissioned on a national highway stretch, but the affected routes are not part of this dataset.",
+      "cost_effect": "unclear",
+      "timing": "ongoing_from_date",
+      "start_date": "2024-03-11",
+      "end_date": null,
+      "magnitude_low_pct": null,
+      "magnitude_high_pct": null,
+      "affects_routes_in_dataset": false,
+      "evidence": "affected routes are not part of this dataset.",
+      "window_start": "2024-03-11",
+      "window_end": "2024-05-05",
+      "problems": [],
+      "usable_for_justification": false
+    },
+    {
+      "note_id": "N005",
+      "note_date": "2024-07-29",
+      "applies_to": "Mumbai-Delhi",
+      "text": "Scheduled highway maintenance work between Mumbai and Delhi caused minor delays for about a week; costs were not significantly affected.",
+      "cost_effect": "no_increase",
+      "timing": "single_week",
+      "start_date": "2024-07-29",
+      "end_date": null,
+      "magnitude_low_pct": null,
+      "magnitude_high_pct": null,
+      "affects_routes_in_dataset": true,
+      "evidence": "costs were not significantly affected",
+      "window_start": "2024-07-29",
+      "window_end": "2024-08-04",
+      "problems": [],
+      "usable_for_justification": false
+    },
+    {
+      "note_id": "N006",
+      "note_date": "2025-09-22",
+      "applies_to": "All Routes",
+      "text": "A logistics industry report noted overall demand for freight capacity remained stable this quarter with no major disruptions reported.",
+      "cost_effect": "no_increase",
+      "timing": "unspecified",
+      "start_date": "2025-09-22",
+      "end_date": null,
+      "magnitude_low_pct": null,
+      "magnitude_high_pct": null,
+      "affects_routes_in_dataset": true,
+      "evidence": "overall demand for freight capacity remained stable this quarter",
+      "window_start": "2025-09-22",
+      "window_end": "2025-09-28",
+      "problems": [],
+      "usable_for_justification": false
+    },
+    {
+      "note_id": "N007",
+      "note_date": "2024-05-20",
+      "applies_to": "Delhi-Jaipur",
+      "text": "Local authorities announced improved road conditions on the Delhi-Jaipur stretch after resurfacing work was completed.",
+      "cost_effect": "unclear",
+      "timing": "ongoing_from_date",
+      "start_date": "2024-05-20",
+      "end_date": null,
+      "magnitude_low_pct": null,
+      "magnitude_high_pct": null,
+      "affects_routes_in_dataset": true,
+      "evidence": "improved road conditions",
+      "window_start": "2024-05-20",
+      "window_end": "2024-07-14",
+      "problems": [],
+      "usable_for_justification": false
+    },
+    {
+      "note_id": "N008",
+      "note_date": "2025-06-09",
+      "applies_to": "Kolkata-Bhubaneswar",
+      "text": "No significant disruptions were reported on the Kolkata-Bhubaneswar corridor this quarter; freight movement remained normal.",
+      "cost_effect": "no_increase",
+      "timing": "unspecified",
+      "start_date": "2025-06-09",
+      "end_date": null,
+      "magnitude_low_pct": null,
+      "magnitude_high_pct": null,
+      "affects_routes_in_dataset": true,
+      "evidence": "No significant disruptions were reported",
+      "window_start": "2025-06-09",
+      "window_end": "2025-06-15",
+      "problems": [],
+      "usable_for_justification": false
+    },
+    {
+      "note_id": "N009",
+      "note_date": "2025-03-17",
+      "applies_to": "Chennai-Bangalore",
+      "text": "Highway authorities confirmed the Chennai-Bangalore route returned to normal conditions after flood-related repairs were completed.",
+      "cost_effect": "unclear",
+      "timing": "ongoing_from_date",
+      "start_date": "2025-03-17",
+      "end_date": null,
+      "magnitude_low_pct": null,
+      "magnitude_high_pct": null,
+      "affects_routes_in_dataset": true,
+      "evidence": "Chennai-Bangalore route returned to normal conditions",
+      "window_start": "2025-03-17",
+      "window_end": "2025-05-11",
+      "problems": [],
+      "usable_for_justification": false
+    },
+    {
+      "note_id": "N010",
+      "note_date": "2025-10-27",
+      "applies_to": "All Routes",
+      "text": "A new vehicle tracking mandate was introduced for commercial fleets; compliance costs were absorbed by transporters without a rate change.",
+      "cost_effect": "no_increase",
+      "timing": "ongoing_from_date",
+      "start_date": "2025-10-27",
+      "end_date": null,
+      "magnitude_low_pct": null,
+      "magnitude_high_pct": null,
+      "affects_routes_in_dataset": true,
+      "evidence": "compliance costs were absorbed by transporters without a rate change",
+      "window_start": "2025-10-27",
+      "window_end": "2025-12-21",
+      "problems": [],
+      "usable_for_justification": false
+    }
+  ],
+  "anomaly_audit": [
+    {
+      "route": "Ahmedabad-Mumbai",
+      "week_of": "2025-01-20",
+      "verdict": "No (justified)",
+      "matched_note_id": "N002",
+      "own_trigger": true,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N002"
+      ],
+      "rejected": [],
+      "reason_source": "template"
+    },
+    {
+      "route": "Chennai-Bangalore",
+      "week_of": "2025-02-24",
+      "verdict": "No (justified)",
+      "matched_note_id": "N001",
+      "own_trigger": true,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N001",
+        "N009"
+      ],
+      "rejected": [
+        {
+          "note_id": "N009",
+          "why": "it reports no cost increase"
+        }
+      ],
+      "reason_source": "template"
+    },
+    {
+      "route": "Chennai-Bangalore",
+      "week_of": "2025-03-03",
+      "verdict": "No (justified)",
+      "matched_note_id": "N001",
+      "own_trigger": true,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N001",
+        "N009"
+      ],
+      "rejected": [
+        {
+          "note_id": "N009",
+          "why": "it reports no cost increase"
+        }
+      ],
+      "reason_source": "template"
+    },
+    {
+      "route": "Chennai-Bangalore",
+      "week_of": "2025-03-10",
+      "verdict": "Yes",
+      "matched_note_id": "",
+      "own_trigger": true,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N001",
+        "N009",
+        "N003"
+      ],
+      "rejected": [
+        {
+          "note_id": "N009",
+          "why": "it reports no cost increase"
+        },
+        {
+          "note_id": "N001",
+          "why": "its window (24 Feb 2025 to 08 Mar 2025) does not cover the week of 10 Mar 2025"
+        },
+        {
+          "note_id": "N003",
+          "why": "its window (05 May 2025 to 29 Jun 2025) does not cover the week of 10 Mar 2025"
+        }
+      ],
+      "reason_source": "template"
+    },
+    {
+      "route": "Chennai-Bangalore",
+      "week_of": "2025-03-17",
+      "verdict": "Yes",
+      "matched_note_id": "",
+      "own_trigger": true,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N001",
+        "N009",
+        "N003"
+      ],
+      "rejected": [
+        {
+          "note_id": "N009",
+          "why": "it reports no cost increase"
+        },
+        {
+          "note_id": "N001",
+          "why": "its window (24 Feb 2025 to 08 Mar 2025) does not cover the week of 17 Mar 2025"
+        },
+        {
+          "note_id": "N003",
+          "why": "its window (05 May 2025 to 29 Jun 2025) does not cover the week of 17 Mar 2025"
+        }
+      ],
+      "reason_source": "template"
+    },
+    {
+      "route": "Delhi-Jaipur",
+      "week_of": "2024-11-11",
+      "verdict": "Yes",
+      "matched_note_id": "",
+      "own_trigger": true,
+      "peer_trigger": true,
+      "retrieved_note_ids": [],
+      "rejected": [],
+      "reason_source": "template"
+    },
+    {
+      "route": "Delhi-Jaipur",
+      "week_of": "2024-11-18",
+      "verdict": "Yes",
+      "matched_note_id": "",
+      "own_trigger": true,
+      "peer_trigger": true,
+      "retrieved_note_ids": [],
+      "rejected": [],
+      "reason_source": "template"
+    },
+    {
+      "route": "Mumbai-Delhi",
+      "week_of": "2025-05-12",
+      "verdict": "No (justified)",
+      "matched_note_id": "N003",
+      "own_trigger": true,
+      "peer_trigger": false,
+      "retrieved_note_ids": [
+        "N003"
+      ],
+      "rejected": [],
+      "reason_source": "template"
+    },
+    {
+      "route": "Mumbai-Delhi",
+      "week_of": "2025-12-22",
+      "verdict": "Yes",
+      "matched_note_id": "",
+      "own_trigger": false,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N010"
+      ],
+      "rejected": [
+        {
+          "note_id": "N010",
+          "why": "it reports no cost increase"
+        }
+      ],
+      "reason_source": "template"
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-09-15",
+      "verdict": "Yes",
+      "matched_note_id": "",
+      "own_trigger": false,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N006",
+        "N010"
+      ],
+      "rejected": [
+        {
+          "note_id": "N006",
+          "why": "it reports no cost increase"
+        },
+        {
+          "note_id": "N010",
+          "why": "it reports no cost increase"
+        }
+      ],
+      "reason_source": "template"
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-10-06",
+      "verdict": "Yes",
+      "matched_note_id": "",
+      "own_trigger": false,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N006",
+        "N010"
+      ],
+      "rejected": [
+        {
+          "note_id": "N006",
+          "why": "it reports no cost increase"
+        },
+        {
+          "note_id": "N010",
+          "why": "it reports no cost increase"
+        }
+      ],
+      "reason_source": "template"
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-10-20",
+      "verdict": "Yes",
+      "matched_note_id": "",
+      "own_trigger": false,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N006",
+        "N010"
+      ],
+      "rejected": [
+        {
+          "note_id": "N010",
+          "why": "it reports no cost increase"
+        },
+        {
+          "note_id": "N006",
+          "why": "it reports no cost increase"
+        }
+      ],
+      "reason_source": "template"
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-10-27",
+      "verdict": "Yes",
+      "matched_note_id": "",
+      "own_trigger": false,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N006",
+        "N010"
+      ],
+      "rejected": [
+        {
+          "note_id": "N010",
+          "why": "it reports no cost increase"
+        },
+        {
+          "note_id": "N006",
+          "why": "it reports no cost increase"
+        }
+      ],
+      "reason_source": "template"
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-11-03",
+      "verdict": "Yes",
+      "matched_note_id": "",
+      "own_trigger": false,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N006",
+        "N010"
+      ],
+      "rejected": [
+        {
+          "note_id": "N010",
+          "why": "it reports no cost increase"
+        },
+        {
+          "note_id": "N006",
+          "why": "it reports no cost increase"
+        }
+      ],
+      "reason_source": "template"
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-11-17",
+      "verdict": "Yes",
+      "matched_note_id": "",
+      "own_trigger": false,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N006",
+        "N010"
+      ],
+      "rejected": [
+        {
+          "note_id": "N010",
+          "why": "it reports no cost increase"
+        },
+        {
+          "note_id": "N006",
+          "why": "it reports no cost increase"
+        }
+      ],
+      "reason_source": "template"
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-12-01",
+      "verdict": "Yes",
+      "matched_note_id": "",
+      "own_trigger": false,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N010"
+      ],
+      "rejected": [
+        {
+          "note_id": "N010",
+          "why": "it reports no cost increase"
+        }
+      ],
+      "reason_source": "template"
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-12-08",
+      "verdict": "Yes",
+      "matched_note_id": "",
+      "own_trigger": false,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N010"
+      ],
+      "rejected": [
+        {
+          "note_id": "N010",
+          "why": "it reports no cost increase"
+        }
+      ],
+      "reason_source": "template"
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-12-15",
+      "verdict": "Yes",
+      "matched_note_id": "",
+      "own_trigger": false,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N010"
+      ],
+      "rejected": [
+        {
+          "note_id": "N010",
+          "why": "it reports no cost increase"
+        }
+      ],
+      "reason_source": "template"
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-12-22",
+      "verdict": "Yes",
+      "matched_note_id": "",
+      "own_trigger": false,
+      "peer_trigger": true,
+      "retrieved_note_ids": [
+        "N010"
+      ],
+      "rejected": [
+        {
+          "note_id": "N010",
+          "why": "it reports no cost increase"
+        }
+      ],
+      "reason_source": "template"
+    }
+  ],
+  "seconds": 1090.1
+}

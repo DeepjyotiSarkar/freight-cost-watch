@@ -1,0 +1,7 @@
+pandas>=2.1
+numpy>=1.26
+requests>=2.31
+fastembed>=0.4       # local ONNX embeddings (BAAI/bge-small-en-v1.5), no torch needed
+pytest>=8            # eval/ tests
+# LLM: none required as a Python package. Point LLM_BASE_URL at any OpenAI-compatible server:
+#   Ollama (default, http://localhost:11434/v1), llama.cpp server, Groq, vLLM.

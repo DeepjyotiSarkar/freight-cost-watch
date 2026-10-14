@@ -1,0 +1,21 @@
+route,week_of,expected_flagged,expected_note_id,why
+Ahmedabad-Mumbai,2025-01-20,No (justified),N002,festival-week surcharge on this corridor in this exact week
+Ahmedabad-Mumbai,2025-01-27,No,,cost back to normal the week after the festival
+Chennai-Bangalore,2025-02-24,No (justified),N001,flood window Feb 24 - Mar 8
+Chennai-Bangalore,2025-03-03,No (justified),N001,week Mar 3-9 overlaps the flood window
+Chennai-Bangalore,2025-03-10,Yes,,cost still high but N001 says roads passable from Mar 9: wrong window
+Chennai-Bangalore,2025-03-17,Yes,,cost still high; N009 says the route is back to normal - not a reason for a rise
+Chennai-Bangalore,2025-03-24,No,,cost dropped back
+Delhi-Jaipur,2024-11-11,Yes,,large spike with no note for this route or time (sample row)
+Delhi-Jaipur,2024-11-18,Yes,,spike continues; still no note
+Delhi-Jaipur,2024-05-20,No,,N007 is good news (road resurfaced) and there is no spike
+Mumbai-Delhi,2024-07-29,No,,N005 maintenance week; costs were not affected and there is no spike
+Mumbai-Delhi,2025-05-12,No (justified),N003,diesel rise from May 5 (5-7%); remaining excess is within weekly noise
+Kolkata-Bhubaneswar,2025-06-09,No,,N008 no disruptions; no spike
+Mumbai-Pune,2025-09-15,Yes,,slow creep vs similar routes; N006 (stable demand) is not a reason (sample row)
+Mumbai-Pune,2025-10-27,Yes,,creep continues; N010 says compliance cost was absorbed with no rate change
+Mumbai-Pune,2025-12-01,Yes,,creep: about 26 points above its usual gap to Delhi-Jaipur
+Mumbai-Pune,2025-12-22,Yes,,creep continues to the end of the data
+Mumbai-Pune,2024-06-10,No,,raw gap vs Delhi-Jaipur looks high (+16.6%) but that is this route's normal premium
+Delhi-Chennai,2024-06-03,No,,calm week
+Kolkata-Bhubaneswar,2024-09-09,No,,calm week
